@@ -130,6 +130,14 @@ img {
 
  /* Media Queries */
 
+ @media screen and (min-width: 768px) and (max-width: 1160px) {
+    
+    .container {
+        width: 90%;
+    }
+ }
+
+
  @media all and (max-width: 768px) {
        
     .container {
@@ -172,5 +180,3 @@ img {
     width: 100%;
    }
  }
-
- 
