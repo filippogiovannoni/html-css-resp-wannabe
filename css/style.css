@@ -136,3 +136,41 @@ img {
         width: 90%;
     }
  }
+ 
+ @media all and (max-width: 480px) {
+       
+   .why-us {
+    background-color: #222222;
+    margin: 0;
+    padding: 1rem 0;
+   }
+
+   section.steps.text-center {
+    margin-bottom: 0;
+   }
+
+   .row {
+    flex-direction: column;
+   }
+
+   .lessons .col {
+    width: 100%;
+   }
+
+   div.col {
+    padding-bottom: 2rem;
+   }
+
+   .steps .col {
+    width: 100%;
+   }
+
+   .why-us .col-right {
+    width: 100%;
+   }
+   .why-us .col-left {
+    width: 100%;
+   }
+ }
+
+ 
